@@ -8,3 +8,10 @@ echo "Formatting go files..."
 gofmt -l -e -w .
 
 echo "Formatting done!"
+
+echo "Building..."
+
+# Build all files
+go build ./...
+
+echo "Building done!"
